@@ -53,7 +53,7 @@ export const FeedbackProvider = ({children}) => {
 	}
 	// Update feedback item
 	const updateFeedback = async (id, updItem) => {
-		const response = await fetch(`/feedback/$id`, {
+		const response = await fetch(`/feedback/${id}`, {
 			method: 'PUT',
 			headers: {
 				'Content-Type': 'application/JSON'
@@ -64,6 +64,8 @@ export const FeedbackProvider = ({children}) => {
 		const data = await response.json()
 
 		setFeedback(feedback.map((item) => item.id === id ? {...item, ...data} : item))
+		
+		setFeedbackEdit({ item: {}, edit: false })
 	}
 
 	return <FeedbackContext.Provider 

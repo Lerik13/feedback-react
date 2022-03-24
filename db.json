@@ -6,12 +6,12 @@
       "text": "This is feedback item 1 coming from Backend"
     },
     {
-      "id": 2,
-      "rating": 9,
-      "text": "This is feedback item 2 coming from Backend"
+      "text": "test item 0",
+      "rating": 8,
+      "id": 2
     },
     {
-      "text": "New new new",
+      "text": "New new new i",
       "rating": 5,
       "id": 4
     }
