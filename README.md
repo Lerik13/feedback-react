@@ -1,6 +1,6 @@
 # Feedback App
 React app for handling feedbacks about a product or a service with a user's rate (1-10), calcultes the average rating of all reviews.<br>
-Project use fake Rest API (json-server) for storing data and have access to data (file db.json)
+Project use mock Rest API (json-server) for storing data and have access to data (file db.json)
 
 ### Developing details (techs/libs):
 - react (state stores in Context)
